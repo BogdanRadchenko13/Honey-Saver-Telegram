@@ -1,0 +1,5 @@
+threading
+telebot
+yt_dlp
+Flask
+gunicorn
