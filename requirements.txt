@@ -1,4 +1,3 @@
-threading
 telebot
 yt_dlp
 Flask
