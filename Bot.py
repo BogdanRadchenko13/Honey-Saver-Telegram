@@ -6,8 +6,7 @@ from yt_dlp import YoutubeDL
 import os
 from flask import Flask
 
-TOKEN = '8025791518:AAEw7CYa_UW-ueEOKyzOG4g8sX7b_5K79DQ'
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(os.environ.get("api_key"))
 
 ydl_opts = {
     'format': 'best',
